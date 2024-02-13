@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Site Vitrine</title>
     <link rel="icon" type="image/x-icon" href="img/head-icon.png">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!--SECTION ACCUEIL-->
     <header>
         <nav>
+            <h1>Motus</h1>
+            <p>Court texte de présentation</p>
         <ul>
             <li><a href="#accueil">Accueil</a></li>
             <li><a href="#decouvrir">Découvrir</a></li>
@@ -17,20 +20,19 @@
             <li><a href="#jeu">Jeu</a></li>
         </ul>
         </nav>
-        <h1>Titre du Site</h1>
-        <p>Court texte de présentation</p>
+        
     </header>
 
     <!--SECTION DECOUVERTE-->
     <section id="decouvrir">
-        <h2>Découvrir</h2>
+        <h2>découvrir</h2>
         <p>Rapide description du lieu/produit</p>
-        <img src="image.jpg" alt="Image de découverte">
+        <img src="img/motus.jpg" alt="Image de découverte" width="50%" height="50%">
     </section>
 
     <!--SECTION FORMULAIRE-->
     <section id="formulaire">
-        <h2>Formulaire</h2>
+        <h2>formulaire</h2>
         <form>
         <fieldset>
             <legend>Informations du joueur</legend>
@@ -52,7 +54,9 @@
             <input type="radio" id="genre_homme" name="genre" value="homme">
             <label for="genre_homme">Homme</label>
             <input type="radio" id="genre_femme" name="genre" value="femme">
-            <label for="genre_femme">Femme</label><br>
+            <label for="genre_femme">Femme</label>
+            <input type="radio" id="autre" name="genre" value="autre">
+            <label for="autre">Autre</label><br>
         </fieldset>
         <button type="submit">Envoyer</button>
         </form>
@@ -60,7 +64,7 @@
 
     <!--SECTION JEU-->
     <section id="jeu">
-        <h2>Jeu</h2>
+        <h2>jeu</h2>
         <p>Contenu de la section Jeu</p>
     </section>
 

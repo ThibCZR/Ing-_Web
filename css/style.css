@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Hoefler Text";
+    src: url("https://db.onlinewebfonts.com/t/d1121dcd467c7fc7d35816d76e0089af.eot");
+    src: url("https://db.onlinewebfonts.com/t/d1121dcd467c7fc7d35816d76e0089af.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/d1121dcd467c7fc7d35816d76e0089af.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/d1121dcd467c7fc7d35816d76e0089af.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/d1121dcd467c7fc7d35816d76e0089af.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/d1121dcd467c7fc7d35816d76e0089af.svg#Hoefler Text")format("svg");
+}
+  
+h1, h2,h3, h4, h5, h6{
+    font-family: "Hoefler Text";
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4.6em; 
+    letter-spacing: 2px; 
+}
+
+h2::first-letter{
+    text-transform:uppercase;
+}
+
+h2{
+    font-size: 2em;
+}
