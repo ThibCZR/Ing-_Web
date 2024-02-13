@@ -7,7 +7,14 @@
     url("https://db.onlinewebfonts.com/t/d1121dcd467c7fc7d35816d76e0089af.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/d1121dcd467c7fc7d35816d76e0089af.svg#Hoefler Text")format("svg");
 }
-  
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    margin-left: 25vh;
+    margin-right: 25vh;
+}
 h1, h2,h3, h4, h5, h6{
     font-family: "Hoefler Text";
 }
@@ -15,7 +22,7 @@ h1, h2,h3, h4, h5, h6{
 h1 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 4.6em; 
+    font-size: 3em; 
     letter-spacing: 2px; 
 }
 
@@ -25,4 +32,42 @@ h2::first-letter{
 
 h2{
     font-size: 2em;
+}
+header{
+    margin-bottom: 5vh;
+}
+
+.presentation h1{
+    margin-bottom: 2vh;
+}
+.presentation {
+    margin-bottom: 5vh;
+}
+.presentation p{
+    text-align: center;
+}
+nav{
+    list-style-type: none; 
+    padding: 0;
+    padding-top: 3vh ;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;    
+    height: 6vh;
+    background-image: url("../img/bc.jpg");
+    background-size: 100%;
+}
+
+nav li{
+    display: inline-block; 
+    margin: 0 30px;
+}
+
+nav li a{
+    text-decoration: none; 
+    color: black; 
+    padding: 10px 20px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Roboto;
 }
