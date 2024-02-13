@@ -1,55 +1,72 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mon Site Vitrine</title>
-  <style>
-    /* Styles CSS peuvent être ajoutés ici */
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Vitrine</title>
+    <link rel="icon" type="image/x-icon" href="img/head-icon.png">
 </head>
 <body>
-  <!-- Section d'accueil -->
-  <section id="accueil">
-    <div>
-      <h1>Titre du site</h1>
-      <p>Court texte de présentation</p>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#accueil">Accueil</a></li>
-        <li><a href="#decouvrir">Découvrir</a></li>
-        <li><a href="#formulaire">Formulaire</a></li>
-        <li><a href="#jeu">Jeu</a></li>
-      </ul>
-    </nav>
-  </section>
+    <!--SECTION ACCUEIL-->
+    <header>
+        <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#decouvrir">Découvrir</a></li>
+            <li><a href="#formulaire">Formulaire</a></li>
+            <li><a href="#jeu">Jeu</a></li>
+        </ul>
+        </nav>
+        <h1>Titre du Site</h1>
+        <p>Court texte de présentation</p>
+    </header>
 
-  <!-- Section Découvrir -->
-  <section id="decouvrir">
-    <h2>Découvrir</h2>
-    <p>Rapide description du lieu/produit</p>
-  </section>
+    <!--SECTION DECOUVERTE-->
+    <section id="decouvrir">
+        <h2>Découvrir</h2>
+        <p>Rapide description du lieu/produit</p>
+        <img src="image.jpg" alt="Image de découverte">
+    </section>
 
-  <!-- Section Formulaire -->
-  <section id="formulaire">
-    <h2>Formulaire</h2>
-    <form>
-      <label for="name">Nom :</label>
-      <input type="text" id="name" name="name" required><br>
-      <label for="">Prénom :</label>
-      <input type="first_name" id="first_name" name="first_name" required><br>
-      <label for="first_name">Prénom :</label>
-      <input type="email" id="email" name="email" required><br>
-      <button type="submit">Envoyer</button>
-    </form>
-  </section>
+    <!--SECTION FORMULAIRE-->
+    <section id="formulaire">
+        <h2>Formulaire</h2>
+        <form>
+        <fieldset>
+            <legend>Informations du joueur</legend>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required><br>
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required><br>
+            <label for="date_naissance">Date de Naissance :</label>
+            <input type="date" id="date_naissance" name="date_naissance" required><br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="niveau_joueur">Niveau du Joueur :</label>
+            <select id="niveau_joueur" name="niveau_joueur">
+                <option value="debutant">Débutant</option>
+                <option value="confirme">Confirmé</option>
+                <option value="expert">Expert</option>
+            </select><br>
+            <label>Genre :</label>
+            <input type="radio" id="genre_homme" name="genre" value="homme">
+            <label for="genre_homme">Homme</label>
+            <input type="radio" id="genre_femme" name="genre" value="femme">
+            <label for="genre_femme">Femme</label><br>
+        </fieldset>
+        <button type="submit">Envoyer</button>
+        </form>
+    </section>
 
-  <!-- Section Jeu -->
-  <section id="jeu">
-    <h2>Jeu</h2>
-    <p>Contenu de la section Jeu</p>
-  </section>
+    <!--SECTION JEU-->
+    <section id="jeu">
+        <h2>Jeu</h2>
+        <p>Contenu de la section Jeu</p>
+    </section>
 
+    <!--FOOTER-->
+    <footer>
+        <p>FOOTER</p>
+    </footer>
 </body>
 </html>
