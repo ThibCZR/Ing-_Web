@@ -57,7 +57,7 @@ function saisie() {
                     break;
                 case val.length !== 6:
                     info.innerText = "Le mot doit contenir 6 lettres";
-                    event.target.value = "";
+                    event.target.value = "red";
                     break;
                 case val !== motSelectionne:
                     info.innerText = "Ce n'est pas la valeur attendue.";
