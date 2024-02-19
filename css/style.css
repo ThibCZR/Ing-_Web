@@ -89,6 +89,7 @@ input, select {
     font-size: 1.2em; 
     padding: 5px;
     margin: 5px;
+    text-transform: uppercase;
 }
 
 button {
