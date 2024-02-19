@@ -106,6 +106,8 @@ button {
 th {
     background: linear-gradient(to bottom, #34a2c7, #00008B); 
     color: white; 
+    width: 4vh;
+    height: 4vh;
     padding: 10px; 
 }
 footer {
