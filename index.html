@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Site Vitrine</title>
+    <title>Motus</title>
     <link rel="icon" type="image/x-icon" href="img/head-icon.png">
     <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
@@ -20,10 +20,9 @@
             </ul>
         </nav>        
     </header>
-    <div class="container">
         <!-- SECTION PRESENTATION  -->
         <section class="presentation">
-            <h1>motus</h1>
+            <h1>Motus</h1>
             <p>Bienvenue chez Motus</p>
         </section>
         <!--SECTION DECOUVERTE-->
@@ -35,9 +34,8 @@
 
         <!--SECTION FORMULAIRE-->
         <section id="formulaire">
-            <h2>formulaire</h2>
+            <h2>Formulaire</h2>
             <form>
-            <fieldset>
                 <legend>Informations du joueur</legend>
                 <label for="nom">Nom :</label>
                 <input type="text" id="nom" name="nom" required><br>
@@ -60,20 +58,22 @@
                 <label for="genre_femme">Femme</label>
                 <input type="radio" id="autre" name="genre" value="autre">
                 <label for="autre">Autre</label><br>
-            </fieldset>
             <button type="submit">Envoyer</button>
             </form>
         </section>
 
         <!--SECTION JEU-->
         <section id="jeu">
-            <h2>jeu</h2>
-            <p>Contenu de la section Jeu</p>
+            <h2>Jeu</h2>
+            <input type="text" id="mot">
+            <table id="grille"></table>
+            <button id="start">START</button>
         </section>
-    </div>
+
     <!--FOOTER-->
     <footer>
         <p>FOOTER</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
