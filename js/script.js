@@ -15,6 +15,9 @@ function startGame() {
     motSelectionne = mots[indexAleatoire];
     console.log(motSelectionne);
 }
+window.addEventListener("load", function() {
+    startGame();
+});
 
 function genererGrille() {
     var grille = document.getElementById("grille");
@@ -28,7 +31,25 @@ function genererGrille() {
         grille.appendChild(ligne);
     }
 }
+window.addEventListener("load", function() {
+    genererGrille();
+});
 
-var boutonStart = document.getElementById("start");
-boutonStart.addEventListener("click", startGame);
-boutonStart.addEventListener("click", genererGrille);
+
+function saisie(){
+    var inputField = document.getElementById("inputField");
+    inputField.addEventListener("keydown", function(event) {
+        if (event.keyCode === 13) {
+            var valeur = event.target.value;
+            console.log("Contenu du champ de saisie :", valeur);
+            event.target.value = "";
+        }
+    });
+}
+saisie();
+
+
+
+
+
+
